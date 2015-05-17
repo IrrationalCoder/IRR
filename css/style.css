@@ -9,3 +9,15 @@ body {
 .carousel {
 	margin-top: -20px;
 }
+
+.sm-img-wrap img{
+	width: 90%;
+	vertical-align: middle;
+	border: 3px solid #eee;
+	border-radius: 10px;
+}  
+
+.selection h2 {
+	color: #fff;
+	text-shadow: 2px 2px 5px #000;
+}
