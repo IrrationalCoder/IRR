@@ -22,6 +22,30 @@ body {
 	text-shadow: 2px 2px 5px #000;
 }
 
+.selection-btn {
+	width: 171.141px;
+	display: inline-block;
+	background: #fff;
+	padding: 15px;
+	margin-top: 10px;
+}
+
+.selection-btn:hover {
+	background: #000;
+}
+
+.selection-btn:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+
+.selection-btn a{
+	color: #000;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+}
+
 /*HOVER EFFECTS*/
 
 .third-effect {
