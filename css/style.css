@@ -21,3 +21,61 @@ body {
 	color: #fff;
 	text-shadow: 2px 2px 5px #000;
 }
+
+/*HOVER EFFECTS*/
+
+.third-effect {
+	position: relative;
+	width: 90%;
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.third-effect .mask {
+   opacity: 0;
+   overflow:visible;
+	width: 90%;
+	vertical-align: middle;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	margin: auto;
+	background: rgba(0,0,0,0.7);
+   box-sizing:border-box;
+   transition: all 0.4s ease-in-out;
+}
+
+.third-effect a.info {
+   opacity: 0;
+   transition: opacity 0.5s 0s ease-in-out;
+   color: #fff;
+   font-size: 26px;
+   text-transform:uppercase;
+	font-weight: 700;
+	letter-spacing: 6px;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 90px;
+	height: 35px;
+	text-align: center;
+	margin: auto;
+}
+
+.third-effect:hover .mask {
+   opacity: 1;
+}
+
+.third-effect:hover a.info {
+   opacity:1;
+   transition-delay: 0.3s;
+}
