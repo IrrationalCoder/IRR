@@ -103,3 +103,19 @@ body {
    opacity:1;
    transition-delay: 0.3s;
 }
+
+/*FOOTER*/
+
+.footer {
+	text-align: center;
+	color: #fff;
+	text-shadow: 2px 2px 5px #000; 
+	margin-top: 50px;
+}
+
+/*BOOTSTRAP OVERWRITE*/
+
+.row {
+	margin-left: 0 !Important;
+	margin-right: 0 !Important;
+}
