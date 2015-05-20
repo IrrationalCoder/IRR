@@ -5,16 +5,16 @@ var changeToGrey =  function(){
 	var changeColor = setInterval(function(){
 	   switch (counter){
 			case 0:
-				$('.animate-logo').css({'border-top': '20px solid grey'})	
+				$('.animate-logo').css({'border-top': '20px solid black'})	
 				break;
 			case 1:
-				$('.animate-logo').css({'border-right': '20px solid grey'});
+				$('.animate-logo').css({'border-right': '20px solid white'});
 				break;
 			case 2:
-				$('.animate-logo').css({'border-bottom': '20px solid grey'});
+				$('.animate-logo').css({'border-bottom': '20px solid black'});
 				break;
 			case 3:
-				$('.animate-logo').css({'border-left': '20px solid grey'});	
+				$('.animate-logo').css({'border-left': '20px solid white'});	
 		}
 		
     counter++;
