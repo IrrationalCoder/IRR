@@ -34,3 +34,7 @@ var preLoader = function(){
 $(document).ready(function(){
 		preLoader();
 });
+
+$(window).load(function(){
+		$('.preloader').delay(12000).fadeOut(500);
+});
